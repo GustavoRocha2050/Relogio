@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: relogio;
-  src: url("/fonts/alarm.ttf");
+  src: url("/alarm.ttf");
 }
 .darkMode {
   background: url('download.jpg') no-repeat;
