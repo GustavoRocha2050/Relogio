@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  @font-face {
+    font-family: relogio;
+    src: url("/alarm.ttf");
+  }
+  .darkMode {
+    background: url('download.jpg') no-repeat;
+    background-size: cover;
+  }
+  body {
+    background: linear-gradient(rgba(255, 81, 0, 0.479), darkblue);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .relogio {
+    width: 550px;
+    height: 200px;
+    background: white;
+    border-radius: 7px;
+    box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.765);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  .relogio div {
+    height: 170px;
+    width: 150px;
+    background: black;
+    color: white;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .relogio div p {
+    font-size: 90px;
+    font-family: relogio;
+  }
+  .relogio h1 {
+    font-size: 50px;
+    font-family: relogio;
+  }
+  .diaMesAno {
+    position: absolute;
+    top: 30px;
+    padding: 0 200px 0px;
+  }
+  .bomDia{
+      padding: 10 20px;
+  }
+  
